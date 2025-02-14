@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: black;
+    font-family: "Pacifico", serif;
+
+}
+
+  
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Arvo", serif
+}
+
+
+.nav-link:hover{
+    color: red;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    border: 2px solid rgb(219, 37, 37);
+    outline: none;
+    font-family: "Arvo", serif
+}
+.btn0{
+    height: 40px;
+    width:40%;
+    border-radius: 60px;
+    border: 1px solid rgb(219, 37, 37);
+  background: rgb(219, 37, 37); 
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    outline: none;
+    font-family: "Arvo", serif
+}
+.navbar-toggler-icon{
+outline: none;
+
+}
+
+.main{
+    background: url(bg1.jpg) no-repeat center center/cover;
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Pacifico", serif;
+   
+    
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border-radius: 60px;
+    border: none;
+    background: rgb(219, 37, 37); 
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    outline: none;
+    font-family: "Arvo", serif
+}
+
+.card:hover{
+    -webkit-box-shadow: 9px 20px 70px 11px rgba(228, 11, 11, 0.98);
+-moz-box-shadow: 9px 20px 70px 11px rgba(235, 1, 1, 0.98);
+box-shadow: 9px 20px 70px 11px rgba(233, 6, 6, 0.98);
+transition: all 1s ease;
+}
+.p1{
+    font-size: 1.5rem;
+    font-family: "Arvo", serif;
+    color: black;
+    
+}
+.bb1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn2{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.apple{
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+    background-position: 100%;
+}
+
+.apple h1{
+    font-family: "Pacifico", serif;
+    font-size: 4rem;    
+
+}
+    
